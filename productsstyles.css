@@ -127,6 +127,11 @@ body {
     .container p {
       font-size: 16px;
     }
+    .container h1 {
+      text-align: left;
+      font-size: 48px;
+      padding: 10px 0;
+    }
   }
   
   .bottomimage  {
