@@ -1,0 +1,157 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    
+  }
+  header {
+    text-align: center;
+    background-color: #082b59;
+    padding: 1rem 0 0 0;
+  }
+  nav ul {
+    margin: 0;
+    padding: 1rem;
+    list-style-type: none;
+    background-color: #132b56;
+    border-bottom: 10px solid #d98555;
+  }
+  
+  nav li {
+    display: block;
+  }
+  
+  nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+  .fa-sharp {
+    color: #ffffff;
+  }
+  nav a:hover {
+    color: #ffaa00;
+  }
+  a {
+    color: #543521;
+  }
+  a:hover {
+    color: #ffaa00;
+  }
+  
+  .container {
+    margin: 6rem 6rem;
+  }
+  .container h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  /*---------content-----------*/
+  
+  
+  .flexrow1,
+  .flexrow2 {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  /*.flexrow1,
+  .flexrow2 {
+    flex-direction: row;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    border: 2px dotted blue;
+  }*/
+  .col img {
+    max-width: 100%;
+    border-radius: 20px;
+  }
+  /*-------mobile----------*/
+  
+  
+  @media (min-width: 550px) {
+      nav {
+          margin: 0;
+      }
+      nav ul {
+          display: flex;
+          flex-flow: row wrap;
+          gap: 1rem;
+          justify-content: center;
+      }
+      nav a {
+          margin: 0 0 3rem 0;
+      }
+    nav li {
+      display: inline-block;
+    }
+    }
+  @media (min-width: 750px) {
+    .flexrow1,
+    .flexrow2 {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin-top: 3rem;
+    }
+    .col {
+    max-width:300px;
+  }
+    
+  }
+  
+  
+  @media (min-width: 900px) {
+    .flexrow1,
+  .flexrow2 {
+    flex-direction: row;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    
+  }
+    .col {
+    max-width:100%;
+  }
+    .container h2 {
+      font-size: 20px;
+    }
+    .container p {
+      font-size: 16px;
+    }
+  }
+  
+  .bottomimage  {
+    display: flex;
+    align-content:flex-end;
+  }
+  
+  .bottomimage img {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+  }
+  
+  footer {
+    display: block;
+    background-color: #082b59;
+    color: #ffffff;
+    text-align: center;
+    border: 10px 0 0 0;
+    border-top: 10px solid #d98555;
+    margin: 0;
+    padding: 0.5rem;
+  }
+  footer a {
+    color: #ffffff;
+    padding: 0.5rem;
+  }
+  

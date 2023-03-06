@@ -1,11 +1,11 @@
 body {
-    font-family: "Lato", sans-serif;
-    background-color: #f2f2f2;
-    color: #000000;
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
-  }
+  font-family: "Lato", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
   header {
     text-align: center;
     background-color: #082b59;
@@ -42,6 +42,7 @@ body {
   a:hover {
     color: #ffaa00;
   }
+
   
   .container {
     margin: 6rem 12rem;
@@ -101,7 +102,18 @@ body {
     grid-row: 1/2;
     border-radius: 10px 10px 0 0;
   }
+
+  .bottomimage  {
+    display: flex;
+    align-content:flex-end;
+  }
   
+  .bottomimage img {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+  }
+
   footer {
     display: block;
     background-color: #082b59;
