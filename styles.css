@@ -66,13 +66,18 @@ body {
     color: #ffaa00;
   }
   
+  .card {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
   .card figure {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 0.1fr;
     margin: 0;
     max-width: 300px;
-    
   }
   .card figcaption {
     grid-column: 1/2;
